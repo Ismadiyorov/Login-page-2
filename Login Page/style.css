@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'montserrat';
+    background: linear-gradient(120deg, #15517e, #38c596);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center{
+    background-image: url(https://t4.ftcdn.net/jpg/04/41/28/21/360_F_441282145_RiHqE7CUoHEMXZYi9kdH4AeQym95hAKU.jpg);
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 410px;
+    border-radius: 10px;
+}
+
+.center h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    color: red;
+    position: relative;
+    margin: 30px 0;
+}
+
+.txt_field input{
+    width: 90%;
+    padding: 0 5px;
+    margin-left: 10px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #416a7b;
+    border: #2980b9;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    color: #eef4fb;
+    transform:translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -15px;
+    color: #7eccff;
+}
+
+
+.pass{
+    margin: -5px 0 20px 5px;
+    cursor: pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width:93%;
+    height:55px;
+    margin-left: 10px;
+    border: 1px solid;
+    color: #9b9b9b;
+    background: aqua;
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: aqua;
+}
+
+.signup_link{
+    margin:25px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup_link a:hover{
+    text-decoration: underline;
+}
+.signin{
+    background-color: rgb(0, 255, 238);
+    border: aqua;
+    width: 215px;
+    height: 70px;
+    margin-left: 90px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+.i{
+    color: #a4a4a4;
+    font-size: 120px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.signin a{
+    font-size: 19px;
+    color: #9b9b9b;
+    margin-left: 0px;
+}
+
+.pass label a:hover{
+    text-decoration: none;
+    
+}
+a{
+    color: #2980b9;
+    margin-left: 90px;
+    text-decoration: none;
+}
+.txt_field input{
+    height: 6vh;
+    color: rgb(243, 246, 250);
+}
+.pass{
+    color: #2980b9;
+}

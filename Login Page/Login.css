@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'montserrat';
+    background: linear-gradient(120deg, #15517e, #38c596);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center{
+    background: linear-gradient(120deg, #094971, #1a7859);
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    border-radius: 10px;
+
+}
+
+.center h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    margin: 30px 0;
+}
+
+.txt_field input{
+    width: 90%;
+    padding: 0 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: rgb(18, 17, 17);
+}
+
+.txt_field label{
+    position: absolute;
+    height: 100px;
+    top: 50%;
+    left: 20px;
+    color: #eef4fb;
+    transform:translateY(-50%);
+    font-size: 16px;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    cursor: pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width:91%;
+    height:55px;
+    margin-left: 10px;
+    border: 1px solid;
+    color: #eef4fb;
+    background: black;
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: aqua;
+}
+
+.signup_link{
+    color: #eef4fb;
+    margin:25px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup_link a:hover{
+    text-decoration: underline;
+}
+.signin{
+    background: none;
+    height: 70px;
+    margin-left: 44%;
+    border: none;
+}
+
+.signin .a12{
+    font-size: 19px;
+    color: white;
+    margin-left: 1px;
+}
+
+.pass label a:hover{
+    text-decoration: none;
+    
+}
+a{
+    color: #1a91df;
+    margin-left: 260px;
+    text-decoration: none;
+}
+.a{
+    color: #1a91df;
+    margin-left: 10px;
+    text-decoration: none;  
+}
+.txt_field input{
+    height: 6vh;
+    color: black;
+}
+.pass{
+    margin-left: 10px;
+    color: white;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
